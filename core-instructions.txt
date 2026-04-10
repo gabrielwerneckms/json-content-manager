@@ -5,7 +5,12 @@
    - After deleting, go back to step 1 to check for the next note.
    - If user-notes.txt is empty, proceed to step 2.
 2. Take a screenshot of index.html using `node screenshot.js`, view it, and compare with reference-image.png. Fix anything that doesn't match previous user instructions.
-3. Ask the user EIGHT questions about next steps using the AskQuestion tool. Every question must have a "Skip" option.
+3. Ask the user questions about next steps using the AskQuestion tool. Every question must have a "Skip" option. Ask as many questions as necessary (aim for thoroughness). Focus on:
+   - Clarifying ambiguity in recent requests
+   - Confirming whether recent changes worked
+   - Verifying design decisions made
+   - Asking about next priorities
+   Don't ask about things the user said aren't important.
 4. Launch a sub-agent to perform any tasks requested in the user's answers.
 5. Go back to step 1.
 
