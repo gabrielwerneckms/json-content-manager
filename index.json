@@ -1,0 +1,1993 @@
+{
+  "permalink": "index.html",
+  "gamesNote": "I had planned on carefully refining my portfolio and online presence until April before making it available.\n\nHowever, after learning about an opportunity at a company I have a strong personal connection with, I’ve decided to launch it in its current form.\n\nSome videos are yet to be recorded and the written content is still being edited and proofread -- I appreciate your understanding!",
+  "casesNote": "Below are 5 case studies, each describing how I accomplished a challenging design goal in the projects listed above. \n\nThese should give you a good grasp of my approach to game design.",
+  "rolesNote": "Below are a few paragraphs describing my role in each project in more detail. \n\nThese will give you some more information to understand the context of the case studies above.",
+  "hideRole": true,
+  "hero": {
+    "heading": "Hi, my name is <br><span style='background-color:#d2d2ff;display:inline-block;'>Gabriel Werneck<span>",
+    "content": "I'm a game designer with 7+ years of experience crafting systems and economies for games across all platforms, working directly with developers, artists, and stakeholders in small indie teams. \n\nI take pride in my ability to apply UX and product principles to game design, using player psychology to shape behavior and make every design decision count toward tangible goals.\n\nIn this portfolio, I carefully describe my roles in my most relevant projects, as well as my approach to some tough design problems they presented.\n\nFor more information, get in touch!",
+    "videos": [
+      {
+        "src": "assets/Videos/smq1.mp4",
+        "title": "Designing eye-catching gameplay\nto organically attract 3.5M+ players",
+        "description": "Given its small marketing budget, Super Mombo Quest had to stand out and bring in players through its looks and feel.\n\nTo achieve that, I designed its gameplay, systems, and presentation to instantly communicate its identity as a chaotic, rewarding precision platformer.",
+        "link": "#game1-case1"
+      },
+      {
+        "src": "",
+        "title": "Crafting a monetization-driven\neconomy to increase LTV by 9.6x",
+        "description": "In Mombo Combo Legacy, my goal was to design a more robust metagame and economy around the original's core loop to support monetization.\n\nIn the first month after soft-launch, D30 LTV was nearly ten times higher than the previous game's, reaching a competitive level within the genre.",
+        "link": "#game2-case1"
+      },
+      {
+        "src": "",
+        "title": "Creating systems to reduce friction and secure a 4.8★ rating",
+        "description": "To deliver the approachable precision platformer we advertised, I had to design a game with a tough core loop, and forgiving meta systems.\n\nThrough 500+ hours of guided playtesting and iteration, I was able to refine the design and achieve the experience the product promised.",
+        "link": "#game1-case2"
+      },
+      {
+        "src": "",
+        "title": "Monitoring analytics weekly to\nreduce churn, tripling D7 retention",
+        "description": "While working on Adventure Llama, I refined the game's 100 levels using per-level drop-off data, smoothing the difficulty curve and keeping players engaged.\n\nI also experimented with various adjustments to the gameplay and systems, further improving both short- and long-term retention.",
+        "link": " "
+      },
+      {
+        "src": "",
+        "title": "Writing documentation to\ndrive production in a team of 10",
+        "description": "As the senior designer on MCL, I created the core documentation defining design standards and workflows across disciplines.\n\nI also wrote hundreds of actionable briefs for artists and developers, helping designs get implemented quickly and accurately.",
+        "link": ""
+      }
+    ]
+  },
+  "games": [
+    {
+      "title": "Super Mombo Quest",
+      "gamecardContent": "A flashy, chaotic precision platformer designed around its combo mechanic, made for PC and consoles and adapted for F2P Mobile.\n\nFor most of the project, I was the only game designer working on its systems, economy, gameplay, and narrative.\n\nI was also responsible for product and UX design, owning the product vision, onboarding, user flows, playtesting, and more.",
+      "image": "assets/Games/SMQ.png",
+      "videoId": "4k6R77pofc0?cc_load_policy=1&autoplay=1",
+      "releaseStatus": "RELEASED OCTOBER 2021",
+      "roleTitle": "Super Mombo Quest",
+      "roleContent": "I started working on SMQ back in 2018, alongside another game designer, an artist, a generalist intern, and the studio’s owner, who did the programming.\n\nThe game was made in Unity, and targeted all major platforms, including PC, consoles, and mobile. It was completed in a little over three years of development.\n\nInitially, I co-owned game design alongside the other designer, while owning only the product design myself. After the first year, the other designer left, and I owned both product and game design for two more years until we launched.\n\nMy game design work here features a lot of systems design: I [crafted the core combo mechanic, lives/checkpoint system, and lots of metagame mechanics](), including upgrades, equipment and a simple economy.\n\nI also made about two-thirds of the game's 200 levels, designed and wrote the narrative, and did plenty of gameplay design, including player's complex moveset as well as enemy and boss behaviors. \n\nAs for UX/product design, I owned areas like onboarding, user flows, interfaces, game feel and UX writing, but most importantly, [made sure we had a clear product identity that conveyed itself at a glance]().",
+      "caseStudies": [
+        {
+          "title": "Designing eye-catching gameplay<br>\nto organically attract 3.5M+ players",
+          "videoInfoHeight": "350px",
+          "content": "Given its minimal marketing budget, our overarching goal with Super Mombo Quest was to create a title with instant appeal that would attract fresh players browsing their platform's storefront.\n\nTo achieve that, I knew we had to design something that stood out within a popular genre. After researching successful indie platformers and iterating on different approaches, I was able to [come up with a solid vision for the game](#game1-case1-vid1).\n\nWe positioned it as an approachable precision platformer built around a combo mechanic. A fun and rewarding take on the genre, which usually tends toward more punishing, gritty titles.\n\nAs the solo designer on the team, not only did I come up with that high-level vision, I was also the one to execute it, crafting the entire game around that core identity.\n\nAfter designing the core loop, I [applied UX principles to make the combo mechanic prominent and engaging](#game1-case1-vid2), adding a combo bar that depletes quickly and creates urgency, plus loads of satisfying visual feedback as your combo progresses.\n\nThroughout development, I [ran 500+ hours of playtests, both live and recorded](#game1-case1-vid3), asking players to think aloud throughout their first contact with the game, and refining it based on their experience.\n\nIn the end, this approach succeeded: The game reached 3.5M players, with 4.8★ on the Play Store and 96% positive ratings on Steam -- and reviews across platforms described it exactly according to our vision.",
+          "videos": [
+            {
+              "src": "assets/Videos/smq1.mp4",
+              "title": "Designing a clear identity to attract potential players at a glance",
+              "description": "While other titles in the genre (such as Celeste and Super Meat Boy) were known for their punishing difficulty, we wanted to offer a more rewarding, forgiving version of that experience.\n\nTo communicate its identity, we needed three things to be readable at a glance: The friendly arcade atmosphere, the acrobatic movement, and the combo mechanic.\n\nWe achieved the atmosphere through the game's visuals, plus a variety of flashy, colorful effects, and a lot of feedback for every action.\n\nAs for the acrobatics, I gave the player simple moves that can be chained intuitively, resulting in movement that looks complex and powerful even though it's easy to achieve.\n\nNow, communicating the combo mechanic at a glance was a challenge, and it took a lot of iteration and playtesting to achieve. \n\nRead next ->"
+            },
+            {
+              "src": "",
+              "title": "Conveying mechanics and shaping behavior through UX",
+              "description": "When we started playtesting SMQ, we hit a problem pretty early: over half of the players would ignore the combo and just move forward.\n\nI realized we were fighting genre expectations. Usually the challenge in a platformer is simply getting from A to B, so players were doing that.\n\nThis was clearly a UX problem -- we needed to make the combo prominent and compelling, with indicators that'd be impossible to ignore.\n\nMy solution involved two main elements: First, a large combo bar that depletes quickly, staying in your peripheral vision and creating a sense of urgency. \n\nThen, lots of satisfying visual feedback as you progress with the combo, culminating in a full-screen animation that briefly stops the game when it's achieved. \n\nAfter these changes, every single new tester engaged with the combo: frantically moving toward the next target and often screaming when the bar got close to empty.\n\nRead next ->"
+            },
+            {
+              "src": "",
+              "title": "Running 500+ hours of playtesting to achieve a fine-tuned experience",
+              "description": "Since SMQ had a pretty unique vision, there weren't good matches to use as a reference. \n\nTo compensate for that, I advocated for constant playtesting, watching testers' first contact with the game and asking them to think aloud.\n\nThis allowed me to experiment and iterate quickly. For instance, we were once struggling with the combo bar depletion rate. \n\nThe bar wasn't dropping fast enough to encourage aggression, but speeding it up made players fail too often and get frustrated.\n\nAfter some iteration, I arrived on an elegant solution: setting the combo bar on a curve, making it seem to deplete more sharply as it's fuller.\n\nWith that simple change, testers felt pressured by the bar dropping and re-filling quickly as they had momentum, but when they missed a target and it got closer to empty, it slowed down.\n\nHundreds of UX-oriented iterations like this added up throughout development, resulting in a polished experience reflected in the game's 96% positive, 4.8★ star rating."
+            }
+          ]
+        },
+        {
+          "title": "Creating systems to reduce\n<br>friction and secure a 4.8★ rating",
+          "videoInfoHeight": "250px",
+          "content": "The idea of an approachable, friendly precision platformer offered an interesting design challenge. \n\nBy definition, the genre has to require precision and skill from players, so its games are usually grueling, unforgiving experiences.\n\nI addressed this conflict by dividing these two design goals between the gameplay and its supporting systems. \n\nWhile movement is complex and levels are challenging, the systems compensate by offering ways to recover from mistakes, [encouraging players to focus on moving fast rather than avoiding damage](). \n\nI achieved this primarily through the heart balloon mechanic, which gives mombo a second hitpoint that can be recovered quickly and repeatedly as long as you're playing aggressively.\n\nAdditionally, I [designed the meta systems to make things easier for players that are struggling](). I made it so the crystals you collected while trying and failing still counted, so less skilled players accumulated far more resources. \n\nThat way, the meta mechanics disproportionately favored those players, allowing them to quickly purchase most of the available upgrades, making their lives easier while more skilled players had to be strategic with their choices.\n\n",
+          "videos": [
+            {
+              "src": "",
+              "title": "Resolving friction between precise movement and aggressive combat",
+              "description": "In earlier versions of the game, a lot of testers either played cautiously and lost the combo, or played aggressively and ended up dying.\n\nOur goal was making an *approachable precision platformer*, so I had to make it more forgiving, while keeping the complex movement and level design.\n\nI achieved this through the game's systems: First, you have the heart balloon, which protects mombo from dying once, and can be recovered by filling up the bar all the way.\n\nThat means you can get hit and recover it multiple times throughout the combo, as long as you keep your momentum. \n\nThen you have the combo bar itself, which lowers quickly when you stand still but not when you get hit, and the respawn system, which lets you retry levels with little consequence.\n\nThese systems allowed even less skilled players to achieve the combo. Instead of worrying about not getting hit, they could focus on reaching the next target fast."
+            },
+            {
+              "src": "",
+              "title": "Tweaking systems to make the game easier only for struggling players",
+              "description": "While the core systems were enough for nearly all of our testers to succeed in the first couple regions, a good 1/3 of them started struggling eventually.\n\nI started working on the meta systems to address this, letting them buy upgrades to help.\n\nBut then, when skilled players bought those, it ruined the game for them, making it trivial to play.\n\nThe solution was pretty counter-intuitive: I adjusted systems so less skilled players accumulated a lot more resources.\n\nIt was a simple tweak: getting rid of crystal penalties for dying, and making you still gain them while replaying levels. \n\nThis was an invisible, non-intrusive way to help players who had to retry levels over and over. \n\nNow that they naturally ended up with a lot more crystals, I made equipment and upgrades more expensive to compensate.\n\nStruggling players could then purchase everything way sooner, while skilled ones had to strategize and be selective throughout the game."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mombo Combo Legacy",
+      "gamecardContent": "The sequel to Super Mombo Quest, this time made primarily targeting the F2P model on mobile.\n\nAs the most senior designer in the team, I designed a robust meta loop and economy to increase the lifetime value of a user by 9.6x compared to the previous title.\n\nI also created and maintained documentation to help a now 10-person team execute designs quickly and accurately.\n\n",
+      "image": "assets/Games/MCL.jpg",
+      "videoId": "J942CyJzegY?autoplay=1",
+      "releaseStatus": "RELEASED DECEMBER 2024",
+      "roleTitle": "Mombo Combo Legacy",
+      "roleContent": "Although Super Mombo Quest had been designed targeting PC and consoles first, it unexpectedly reached over a million downloads on mobile in a few months.\n\nSince the mobile version was a secondary thought, the game's potential for monetization was limited, so it didn't make the most out of its success on the platform. This time, the team decided to build a sequel around a free-to-play model.\n\nAs the senior designer of the team, I was responsible for the F2P product goals, [crafting a robust metagame with multiple monetization systems]() to translate the game's appeal on mobile into revenue.\n\nAt the time, the company had just scaled to double its previous size, with five new junior employees divided among disciplines, so I was also tasked with [writing documentation to align design and production across a growing team]().\n\nThe project was developed in Unity and completed in under 2.5 years, thought I was on a career break during the first four months of production.",
+      "caseStudies": [
+        {
+          "title": "Crafting a monetization-driven<br>\neconomy to increase LTV by 9.6x",
+          "videoInfoHeight": "250px",
+          "content": "Mombo Combo Legacy's predecessor quickly reached over a million players on mobile. However, revenue there was underwhelming, as it had few retention mechanics and relied on interstitials for monetization.\n\nSeeing the potential, our team decided to develop a sequel - Mombo Combo Legacy - now planned as a F2P experience first and foremost.\n\nMy goal was to redesign a large portion of the original game to make it lucrative on mobile. I knew the sequel would need far more longevity, and enough new systems to drive monetization.\n\nI started by [creating a robust metagame around the old core loop](), with a soft- and hard-currency economy. It featured powerups, cosmetics, a lives systems, and time-gated pet-hatching mechanics.\n\nThen, on top of all that structure, I [designed offers connecting these new resources to IAPs and rewarded ads](), including a battle pass, special and limited-time offers, skin packages, a gem vault and more.\n\nOnce all the monetization systems were complete, I designed a spreadsheet with all the sinks and faucets in the game, and refined them to get good value out of value spenders, high spenders and non-spenders.\n\nSince the game wasn't live yet, I [fine-tuned economy balance through internal playtesting](), recording gameplay simulating behavior of players in these three segments, then adjusting pacing and friction accordingly.\n\nAlthought I didn't have a chance to refine these systems using analytics, these changes were able to double D7 retention, quadruple D30, and increase LTV by 960%.",
+          "videos": [
+            {
+              "src": "",
+              "title": "Crafting a more robust metagame to support monetization mechanics",
+              "description": "When it came to monetization, I noticed two issues with the previous title.\n\nThe first was players tended toward long, multi-hour sessions, finishing the game in a few days rather than making it become a habit.\n\nAnd second was there simply weren't enough metagame mechanics and resources to design compelling offers around.\n\nTo address this in sequel, I started with the resources, creating powerups that helped with difficult levels, hard-to-obtain cosmetics that felt special, and equipable pets that affected the core gameplay.\n\nThen I worked on retention, with a lives systems to spread out gamplay into smaller sessions and time-gated mechanics where users had to wait for pets to hatch, rest or level-up by themselves.\n\nThese change set the foundation for us to achieve the sequel's 2x higher D7 and 4x higher D30 retention, with beta testers at the time reporting weeks of gameplay and lots of involvement with the new metagame systems."
+            },
+            {
+              "src": "",
+              "title": "Designing microtransactions and offers that convert",
+              "description": "Once we had enough retention, metagame mechanics and desirable resources in the game, I needed to design the offers to turn that into revenue.\n\nI thought about players as either non-paying, value spenders, and high spenders.\n\nNon-paying players would have to spend the most time to progress, meaning they'd watch more interstitials and have more incentive to watch rewarded ads that saved them a few minutes of grinding.\n\nFor high spenders, I made sure you could use hard-currency to basically get any resource or skip any wait in the game, for prices that anchored the value of these purchases high.\n\nFor value-spenders, we'd have special offers combining loads of resources for a much lower cost, plus offline play and ad removal -- vastly improving their experience at a low cost and making it easy to purchase.\n\nOnce I designed the economy and offers to best monetize each of these segments, it was now a matter of testing and validating my approach."
+            },
+            {
+              "src": "",
+              "title": "Balancing the economy through player segmentation and playtesting",
+              "description": "Once the all the systems and features of the economy were designed, I needed to start optimizing it and balancing resource sinks and faucets.\n\nThis was challenging to do at this point in the project, since the game hadn't even been soft-launched yet. \n\nWe couldn't really experiement and measure results, and all the data we had was from surveys and chats with closed beta playtesters.\n\nMy solution was to go through extensive internal playtesting, with junior designers recording gameplay simulating the behavior of players from each segment.\n\nI designed a spreadsheet cleanly listing every resource sink and faucet in the game, exporting the data in a simple dictionary format that could go directly into Unity.\n\nI then used that sheet to refine the economy and iterate on it based on the experience of each kind of user, watching gameplay, making changes, and having them play again.\n\nWe eventually were able to soft-launch the game with the numbers I arrived on, and the LTV of a user was 9.6x higher than the original title's (both measured at D30)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Adventure Llama",
+      "gamecardContent": "A hypercasual one-touch puzzle platformer, smaller in scope than the previous two titles.\n\nWorking directly with the studio's owner, I crafted nearly all of the game's levels, and refined its systems to increase engagement and drive monetization.\n\nI closely monitored analytics data, weekly reviewing drop-off statistics per level and finetuning challenges to reduce churn.",
+      "image": "assets/Games/AdvLlama.jpg",
+      "videoId": "iskBu6QYnUg?autoplay=1",
+      "releaseStatus": "RELEASED JUNE 2018"
+    },
+    {
+      "title": "Other Projects and Skills",
+      "gamecardContent": "In November 2025, I’ve shipped my latest title, an action roguelite called Lia: Hacking Destiny, in which I designed primarily the game’s systems and narrative.\n\nBesides the games I’ve made with Orube, I've also done three years’ worth of contract work for a company called Aiyra, designing and developing robust prototypes of advergames for third parties.\n\nBefore starting my career, I've spent four years making a complete game by myself, including programming, art, animation, sound, music, narrative, and QA -- giving me unique insight into the game development process from start to finish.",
+      "images": [
+        "assets/Games/LiaVertical.png",
+        "assets/Games/GG.png"
+      ],
+      "videoId": "v600d3Or4vg?autoplay=1"
+    }
+  ],
+  "platformTables": [
+    "<div class=\"resizable firsttable\" style=\"display: flex; gap: 10px; margin-top: 0px; width: 70%; margin-left: auto; margin-right: auto;\">\n    <!-- Left table: 1 row, 3 columns -->\n    <table style=\"border-collapse: collapse; border: 1px solid transparent; width: 36%; border-spacing: 0; transform: translateY(1px);\">\n        <tr>\n            <td style=\"border: 1px solid transparent; padding: 0px;\">\n                <a href=\"https://www.nintendo.com/store/products/super-mombo-quest-switch/\" target=\"_blank\" onmouseover=\"this.querySelector('img').src='assets/Icons/SwitchHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Switch.png'\">\n                    <img src=\"assets/Icons/Switch.png\" alt=\"Switch\" style=\"width: 32px; height: 32px; \">\n                </a>\n            </td>\n            <td style=\"border: 1px solid transparent; padding: 0px;\">\n                <a href=\"https://store.playstation.com/en-us/concept/10011896\" target=\"_blank\" onmouseover=\"this.querySelector('img').src='assets/Icons/PSHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/PS.png'\">\n                    <img src=\"assets/Icons/PS.png\" alt=\"PS\" style=\"width: 32px; height: 32px;  \">\n                </a>\n            </td>\n            <td style=\"border: 1px solid transparent; padding: 0px;\">\n                <a href=\"https://www.xbox.com/pt-BR/games/store/super-mombo-quest/9NNV4Z82MBMH\" target=\"_blank\" onmouseover=\"this.querySelector('img').src='assets/Icons/XboxHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Xbox.png'\">\n                    <img src=\"assets/Icons/Xbox.png\" alt=\"Xbox\" style=\"width: 32px; height: 32px;  \">\n                </a>\n            </td>\n        </tr>\n    </table>\n    \n    <!-- Right table: 2 rows, 2 columns -->\n    <table style=\"border-collapse: collapse; border: 1px solid transparent; width: 64%; border-spacing: 0; transform: translateY(1px);\">\n        <tr style=\"transform: translateY(2px);\">\n            <td style=\"border: 1px solid transparent; padding: 3px 1px 0px 1px; width: 10%;\">\n                <a href=\"https://play.google.com/store/apps/details?id=com.orube.supermomboquest\" target=\"_blank\" onmouseover=\"this.closest('tr').querySelector('img').src='assets/Icons/PlayHover.png'; this.closest('tr').querySelector('span').style.color='#6644ff'\" onmouseout=\"this.closest('tr').querySelector('img').src='assets/Icons/Play.png'; this.closest('tr').querySelector('span').style.color='#9999bb'\">\n                    <img src=\"assets/Icons/Play.png\" alt=\"Play\" style=\"width: 14px; height: 14px; transform: translateY(4px);\">\n                </a>\n            </td>\n            <td style=\"border: 1px solid transparent; padding: 1px 0px 0px 0px; text-align: left; vertical-align: top; transform: translateY(4px);\">\n                <a href=\"https://play.google.com/store/apps/details?id=com.orube.supermomboquest\" target=\"_blank\" onmouseover=\"this.closest('tr').querySelector('img').src='assets/Icons/PlayHover.png'; this.closest('tr').querySelector('span').style.color='#6644ff'\" onmouseout=\"this.closest('tr').querySelector('img').src='assets/Icons/Play.png'; this.closest('tr').querySelector('span').style.color='#9999bb'\">\n                    <span class=\"link\">4.8★, 3.5M+ Downloads</span>\n                </a>\n            </td>\n        </tr>\n        <tr style=\"transform: translateY(-2px);\">\n            <td style=\"border: 1px solid transparent; padding: 1px; width: 10%;\">\n                <a href=\"https://store.steampowered.com/app/1262040/Super_Mombo_Quest/\" target=\"_blank\" onmouseover=\"this.closest('tr').querySelector('img').src='assets/Icons/SteamHover.png'; this.closest('tr').querySelector('span').style.color='#6644ff'\" onmouseout=\"this.closest('tr').querySelector('img').src='assets/Icons/Steam.png'; this.closest('tr').querySelector('span').style.color='#9999bb'\">\n                    <img src=\"assets/Icons/Steam.png\" alt=\"Steam\" style=\"width: 14px; height: 14px;\">\n                </a>\n            </td>\n            <td style=\"border: 1px solid transparent; padding: 3px 0px 3px 0px; width: 120px; text-align: left; color: #9999bb; vertical-align: top; transform: translateY(-1px);\">\n                <a href=\"https://store.steampowered.com/app/1262040/Super_Mombo_Quest/\" target=\"_blank\" onmouseover=\"this.closest('tr').querySelector('img').src='assets/Icons/SteamHover.png'; this.closest('tr').querySelector('span').style.color='#6644ff'\" onmouseout=\"this.closest('tr').querySelector('img').src='assets/Icons/Steam.png'; this.closest('tr').querySelector('span').style.color='#9999bb'\">\n                    <span class=\"link\">96% Positive (728)</span>\n                </a>\n            </td>\n        </tr>\n    </table>\n</div>\n",
+    "<div class=\"resizable\" style=\"width: fit-content; display: flex; justify-content: center; margin: 12px auto 6px auto; gap: 8px; align-items: center;\">\n    <a href=\"https://play.google.com/store/apps/details?id=com.orube.mcl\" target=\"_blank\" style=\"display: flex; align-items: center; gap: 8px; text-decoration: none;\" onmouseover=\"this.querySelector('img').src='assets/Icons/PlayHover.png'; this.querySelector('span').style.color='#6644ff'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Play.png'; this.querySelector('span').style.color='#9999bb'\">\n        <img src=\"assets/Icons/Play.png\" alt=\"Play\" style=\"width: 32px; height: 32px;\">\n        <span class=\"link\" style=\"margin-left: 0px; text-align: left;\">Rated 4.8★ <br> 500k+ Downloads</span>\n    </a>\n</div>\n",
+    "<div class=\"resizable\" style=\"width: fit-content; display: flex; justify-content: center; margin: 12px auto 6px auto; gap: 8px; align-items: center;\">\n    <a href=\"https://play.google.com/store/apps/details?id=com.orube.adventurellama\" target=\"_blank\" style=\"display: flex; align-items: center; gap: 8px; text-decoration: none;\" onmouseover=\"this.querySelector('img').src='assets/Icons/PlayHover.png'; this.querySelector('span').style.color='#6644ff'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Play.png'; this.querySelector('span').style.color='#9999bb'\">\n        <img src=\"assets/Icons/Play.png\" alt=\"Play\" style=\"width: 32px; height: 32px;\">\n        <span class=\"link\" style=\"margin-left: 0px; transform: translateY(1px); text-align: left;\">Rated 4.7★ <br> 3M+ Downloads</span>\n    </a>\n</div>\n",
+    "<!--\n<div class=\"resizable\" style=\"display: flex; justify-content: center; margin-top: 12px; margin-bottom:6px; gap: 8px;\">\n    <a href=\"test.com\" onmouseover=\"this.querySelector('img').src='assets/Icons/SwitchHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Switch.png'\"><img src=\"assets/Icons/Switch.png\" alt=\"Switch\" style=\"width: 32px; height: 32px;\"></a>\n    <a href=\"test.com\" onmouseover=\"this.querySelector('img').src='assets/Icons/XboxHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Xbox.png'\"><img src=\"assets/Icons/Xbox.png\" alt=\"Xbox\" style=\"width: 32px; height: 32px;\"></a>\n    <a href=\"test.com\" onmouseover=\"this.querySelector('img').src='assets/Icons/PSHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/PS.png'\"><img src=\"assets/Icons/PS.png\" alt=\"PS\" style=\"width: 32px; height: 32px;\"></a>\n    <a href=\"test.com\" onmouseover=\"this.querySelector('img').src='assets/Icons/PlayHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Play.png'\"><img src=\"assets/Icons/Play.png\" alt=\"Play\" style=\"width: 32px; height: 32px;\"></a>\n    <a href=\"test.com\" onmouseover=\"this.querySelector('img').src='assets/Icons/SteamHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Steam.png'\"><img src=\"assets/Icons/Steam.png\" alt=\"Steam\" style=\"width: 32px; height: 32px;\"></a>\n</div>\n-->\n<div class=\"resizable\" style=\"display: flex; justify-content: center; margin-top: 12px; margin-bottom:6px; gap: 8px;\">\n    <img src=\"assets/Icons/Switch.png\" alt=\"Switch\" style=\"width: 32px; height: 32px;\">\n    <img src=\"assets/Icons/Xbox.png\" alt=\"Xbox\" style=\"width: 32px; height: 32px;\">\n    <img src=\"assets/Icons/PS.png\" alt=\"PS\" style=\"width: 32px; height: 32px;\">\n    <img src=\"assets/Icons/Play.png\" alt=\"Play\" style=\"width: 32px; height: 32px;\">\n    <a href=\"https://store.steampowered.com/app/3740360/Lia_Hacking_Destiny/\" target=\"_blank\" onmouseover=\"this.querySelector('img').src='assets/Icons/SteamHover.png'\" onmouseout=\"this.querySelector('img').src='assets/Icons/Steam.png'\">\n        <img src=\"assets/Icons/Steam.png\" alt=\"Steam\" style=\"width: 32px; height: 32px;\">\n    </a>\n</div>\n"
+  ],
+  "jboard_data": {
+    "__meta": {
+      "pos": {
+        "col": 0,
+        "row": 0
+      },
+      "size": {
+        "w": 12,
+        "h": 8
+      },
+      "containerSize": {
+        "w": 15,
+        "h": 16
+      },
+      "childPositions": {
+        "permalink": {
+          "pos": {
+            "col": 8,
+            "row": 2
+          },
+          "size": {
+            "w": 2,
+            "h": 1
+          }
+        },
+        "gamesNote": {
+          "pos": {
+            "col": 6,
+            "row": 2
+          },
+          "size": {
+            "w": 2,
+            "h": 2
+          }
+        },
+        "casesNote": {
+          "pos": {
+            "col": 6,
+            "row": 0
+          },
+          "size": {
+            "w": 2,
+            "h": 2
+          }
+        },
+        "rolesNote": {
+          "pos": {
+            "col": 8,
+            "row": 0
+          },
+          "size": {
+            "w": 2,
+            "h": 2
+          }
+        },
+        "hideRole": {
+          "pos": {
+            "col": 8,
+            "row": 3
+          },
+          "size": {
+            "w": 1,
+            "h": 1
+          }
+        },
+        "hero": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 6,
+            "h": 5
+          }
+        },
+        "games": {
+          "pos": {
+            "col": 0,
+            "row": 5
+          },
+          "size": {
+            "w": 11,
+            "h": 9
+          }
+        },
+        "platformTables": {
+          "pos": {
+            "col": 10,
+            "row": 0
+          },
+          "size": {
+            "w": 1,
+            "h": 2
+          }
+        }
+      },
+      "childZoom": {
+        "hero": 1
+      }
+    },
+    "permalink": {},
+    "gamesNote": {},
+    "casesNote": {},
+    "rolesNote": {},
+    "hideRole": {},
+    "hero": {
+      "__meta": {
+        "pos": {
+          "col": 0,
+          "row": 0
+        },
+        "size": {
+          "w": 7,
+          "h": 8
+        },
+        "containerSize": {
+          "w": 7,
+          "h": 9
+        },
+        "childPositions": {
+          "heading": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 2,
+              "h": 1
+            }
+          },
+          "content": {
+            "pos": {
+              "col": 0,
+              "row": 1
+            },
+            "size": {
+              "w": 2,
+              "h": 3
+            }
+          },
+          "videos": {
+            "pos": {
+              "col": 2,
+              "row": 0
+            },
+            "size": {
+              "w": 3,
+              "h": 4
+            }
+          }
+        }
+      },
+      "heading": {},
+      "content": {},
+      "videos": {
+        "0": {
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 5,
+              "h": 6
+            },
+            "containerSize": {
+              "w": 3,
+              "h": 3
+            },
+            "childPositions": {
+              "src": {
+                "pos": {
+                  "col": 2,
+                  "row": 2
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              },
+              "title": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 3,
+                  "h": 1
+                }
+              },
+              "description": {
+                "pos": {
+                  "col": 0,
+                  "row": 1
+                },
+                "size": {
+                  "w": 2,
+                  "h": 2
+                }
+              },
+              "link": {
+                "pos": {
+                  "col": 2,
+                  "row": 1
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              }
+            }
+          },
+          "src": {},
+          "title": {},
+          "description": {},
+          "link": {}
+        },
+        "1": {
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 5,
+              "h": 6
+            },
+            "containerSize": {
+              "w": 3,
+              "h": 3
+            },
+            "childPositions": {
+              "src": {
+                "pos": {
+                  "col": 2,
+                  "row": 2
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              },
+              "title": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 3,
+                  "h": 1
+                }
+              },
+              "description": {
+                "pos": {
+                  "col": 0,
+                  "row": 1
+                },
+                "size": {
+                  "w": 2,
+                  "h": 2
+                }
+              },
+              "link": {
+                "pos": {
+                  "col": 2,
+                  "row": 1
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              }
+            }
+          },
+          "src": {},
+          "title": {},
+          "description": {},
+          "link": {}
+        },
+        "2": {
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 5,
+              "h": 6
+            },
+            "containerSize": {
+              "w": 3,
+              "h": 3
+            },
+            "childPositions": {
+              "src": {
+                "pos": {
+                  "col": 2,
+                  "row": 2
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              },
+              "title": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 3,
+                  "h": 1
+                }
+              },
+              "description": {
+                "pos": {
+                  "col": 0,
+                  "row": 1
+                },
+                "size": {
+                  "w": 2,
+                  "h": 2
+                }
+              },
+              "link": {
+                "pos": {
+                  "col": 2,
+                  "row": 1
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              }
+            }
+          },
+          "src": {},
+          "title": {},
+          "description": {},
+          "link": {}
+        },
+        "3": {
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 5,
+              "h": 6
+            },
+            "containerSize": {
+              "w": 3,
+              "h": 3
+            },
+            "childPositions": {
+              "src": {
+                "pos": {
+                  "col": 2,
+                  "row": 2
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              },
+              "title": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 3,
+                  "h": 1
+                }
+              },
+              "description": {
+                "pos": {
+                  "col": 0,
+                  "row": 1
+                },
+                "size": {
+                  "w": 2,
+                  "h": 2
+                }
+              },
+              "link": {
+                "pos": {
+                  "col": 2,
+                  "row": 1
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              }
+            }
+          },
+          "src": {},
+          "title": {},
+          "description": {},
+          "link": {}
+        },
+        "4": {
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 5,
+              "h": 6
+            },
+            "containerSize": {
+              "w": 3,
+              "h": 3
+            },
+            "childPositions": {
+              "src": {
+                "pos": {
+                  "col": 2,
+                  "row": 2
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              },
+              "title": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 3,
+                  "h": 1
+                }
+              },
+              "description": {
+                "pos": {
+                  "col": 0,
+                  "row": 1
+                },
+                "size": {
+                  "w": 2,
+                  "h": 2
+                }
+              },
+              "link": {
+                "pos": {
+                  "col": 2,
+                  "row": 1
+                },
+                "size": {
+                  "w": 1,
+                  "h": 1
+                }
+              }
+            }
+          },
+          "src": {},
+          "title": {},
+          "description": {},
+          "link": {}
+        },
+        "__meta": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 3,
+            "h": 4
+          },
+          "containerSize": {
+            "w": 15,
+            "h": 7
+          },
+          "arrayItems": {
+            "size": {
+              "w": 3,
+              "h": 7
+            },
+            "positions": [
+              {
+                "col": 0,
+                "row": 0
+              },
+              {
+                "col": 3,
+                "row": 0
+              },
+              {
+                "col": 6,
+                "row": 0
+              },
+              {
+                "col": 9,
+                "row": 0
+              },
+              {
+                "col": 12,
+                "row": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "games": {
+      "0": {
+        "__meta": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 10,
+            "h": 8
+          },
+          "containerSize": {
+            "w": 11,
+            "h": 8
+          },
+          "childPositions": {
+            "title": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "gamecardContent": {
+              "pos": {
+                "col": 0,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "image": {
+              "pos": {
+                "col": 9,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "videoId": {
+              "pos": {
+                "col": 9,
+                "row": 3
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "releaseStatus": {
+              "pos": {
+                "col": 9,
+                "row": 5
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleTitle": {
+              "pos": {
+                "col": 0,
+                "row": 1
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleContent": {
+              "pos": {
+                "col": 0,
+                "row": 2
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "caseStudies": {
+              "pos": {
+                "col": 2,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              }
+            },
+            "images": {
+              "pos": {
+                "col": 9,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 3
+              }
+            }
+          },
+          "childZoom": {
+            "caseStudies": 1
+          }
+        },
+        "title": {},
+        "gamecardContent": {},
+        "image": {},
+        "videoId": {},
+        "releaseStatus": {},
+        "roleTitle": {},
+        "roleContent": {},
+        "caseStudies": {
+          "0": {
+            "__meta": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 12,
+                "h": 8
+              },
+              "containerSize": {
+                "w": 6,
+                "h": 7
+              },
+              "childPositions": {
+                "title": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 3,
+                    "h": 1
+                  }
+                },
+                "videoInfoHeight": {
+                  "pos": {
+                    "col": 3,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 1
+                  }
+                },
+                "content": {
+                  "pos": {
+                    "col": 0,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 6
+                  }
+                },
+                "videos": {
+                  "pos": {
+                    "col": 2,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 4,
+                    "h": 6
+                  }
+                }
+              },
+              "childZoom": {
+                "videos": 1
+              }
+            },
+            "title": {},
+            "videoInfoHeight": {},
+            "content": {},
+            "videos": {
+              "0": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 4,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "1": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "2": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "__meta": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 4,
+                  "h": 6
+                },
+                "containerSize": {
+                  "w": 9,
+                  "h": 5
+                },
+                "arrayItems": {
+                  "size": {
+                    "w": 3,
+                    "h": 5
+                  },
+                  "positions": [
+                    {
+                      "col": 0,
+                      "row": 0
+                    },
+                    {
+                      "col": 3,
+                      "row": 0
+                    },
+                    {
+                      "col": 6,
+                      "row": 0
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "1": {
+            "__meta": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              },
+              "containerSize": {
+                "w": 6,
+                "h": 7
+              },
+              "childPositions": {
+                "title": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 3,
+                    "h": 1
+                  }
+                },
+                "videoInfoHeight": {
+                  "pos": {
+                    "col": 3,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 1
+                  }
+                },
+                "content": {
+                  "pos": {
+                    "col": 0,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 6
+                  }
+                },
+                "videos": {
+                  "pos": {
+                    "col": 2,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 4,
+                    "h": 6
+                  }
+                }
+              }
+            },
+            "title": {},
+            "videoInfoHeight": {},
+            "content": {},
+            "videos": {
+              "0": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "1": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "__meta": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 5,
+                  "h": 7
+                },
+                "containerSize": {
+                  "w": 9,
+                  "h": 5
+                },
+                "arrayItems": {
+                  "size": {
+                    "w": 3,
+                    "h": 5
+                  },
+                  "positions": [
+                    {
+                      "col": 0,
+                      "row": 0
+                    },
+                    {
+                      "col": 3,
+                      "row": 0
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 7,
+              "h": 8
+            },
+            "containerSize": {
+              "w": 6,
+              "h": 16
+            },
+            "arrayItems": {
+              "size": {
+                "w": 6,
+                "h": 8
+              },
+              "positions": [
+                {
+                  "col": 0,
+                  "row": 0
+                },
+                {
+                  "col": 0,
+                  "row": 8
+                }
+              ]
+            }
+          }
+        }
+      },
+      "1": {
+        "__meta": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 10,
+            "h": 8
+          },
+          "containerSize": {
+            "w": 11,
+            "h": 8
+          },
+          "childPositions": {
+            "title": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "gamecardContent": {
+              "pos": {
+                "col": 0,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "image": {
+              "pos": {
+                "col": 9,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "videoId": {
+              "pos": {
+                "col": 9,
+                "row": 3
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "releaseStatus": {
+              "pos": {
+                "col": 9,
+                "row": 5
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleTitle": {
+              "pos": {
+                "col": 0,
+                "row": 1
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleContent": {
+              "pos": {
+                "col": 0,
+                "row": 2
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "caseStudies": {
+              "pos": {
+                "col": 2,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              }
+            },
+            "images": {
+              "pos": {
+                "col": 9,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 3
+              }
+            }
+          }
+        },
+        "title": {},
+        "gamecardContent": {},
+        "image": {},
+        "videoId": {},
+        "releaseStatus": {},
+        "roleTitle": {},
+        "roleContent": {},
+        "caseStudies": {
+          "0": {
+            "__meta": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              },
+              "containerSize": {
+                "w": 6,
+                "h": 7
+              },
+              "childPositions": {
+                "title": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 3,
+                    "h": 1
+                  }
+                },
+                "videoInfoHeight": {
+                  "pos": {
+                    "col": 3,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 1
+                  }
+                },
+                "content": {
+                  "pos": {
+                    "col": 0,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 2,
+                    "h": 6
+                  }
+                },
+                "videos": {
+                  "pos": {
+                    "col": 2,
+                    "row": 1
+                  },
+                  "size": {
+                    "w": 4,
+                    "h": 6
+                  }
+                }
+              }
+            },
+            "title": {},
+            "videoInfoHeight": {},
+            "content": {},
+            "videos": {
+              "0": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "1": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "2": {
+                "__meta": {
+                  "pos": {
+                    "col": 0,
+                    "row": 0
+                  },
+                  "size": {
+                    "w": 5,
+                    "h": 7
+                  },
+                  "containerSize": {
+                    "w": 3,
+                    "h": 6
+                  },
+                  "childPositions": {
+                    "src": {
+                      "pos": {
+                        "col": 2,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 1,
+                        "h": 1
+                      }
+                    },
+                    "title": {
+                      "pos": {
+                        "col": 0,
+                        "row": 0
+                      },
+                      "size": {
+                        "w": 3,
+                        "h": 1
+                      }
+                    },
+                    "description": {
+                      "pos": {
+                        "col": 0,
+                        "row": 1
+                      },
+                      "size": {
+                        "w": 2,
+                        "h": 4
+                      }
+                    }
+                  }
+                },
+                "src": {},
+                "title": {},
+                "description": {}
+              },
+              "__meta": {
+                "pos": {
+                  "col": 0,
+                  "row": 0
+                },
+                "size": {
+                  "w": 5,
+                  "h": 7
+                },
+                "containerSize": {
+                  "w": 9,
+                  "h": 5
+                },
+                "arrayItems": {
+                  "size": {
+                    "w": 3,
+                    "h": 5
+                  },
+                  "positions": [
+                    {
+                      "col": 0,
+                      "row": 0
+                    },
+                    {
+                      "col": 3,
+                      "row": 0
+                    },
+                    {
+                      "col": 6,
+                      "row": 0
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 7,
+              "h": 8
+            },
+            "containerSize": {
+              "w": 6,
+              "h": 8
+            },
+            "arrayItems": {
+              "size": {
+                "w": 6,
+                "h": 8
+              },
+              "positions": [
+                {
+                  "col": 0,
+                  "row": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "2": {
+        "__meta": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 4,
+            "h": 7
+          },
+          "containerSize": {
+            "w": 11,
+            "h": 8
+          },
+          "childPositions": {
+            "title": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "gamecardContent": {
+              "pos": {
+                "col": 0,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "image": {
+              "pos": {
+                "col": 9,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "videoId": {
+              "pos": {
+                "col": 9,
+                "row": 3
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "releaseStatus": {
+              "pos": {
+                "col": 9,
+                "row": 5
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleTitle": {
+              "pos": {
+                "col": 0,
+                "row": 1
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleContent": {
+              "pos": {
+                "col": 0,
+                "row": 2
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "caseStudies": {
+              "pos": {
+                "col": 2,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              }
+            },
+            "images": {
+              "pos": {
+                "col": 9,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 3
+              }
+            }
+          }
+        },
+        "title": {},
+        "gamecardContent": {},
+        "image": {},
+        "videoId": {},
+        "releaseStatus": {}
+      },
+      "3": {
+        "__meta": {
+          "pos": {
+            "col": 0,
+            "row": 0
+          },
+          "size": {
+            "w": 4,
+            "h": 7
+          },
+          "containerSize": {
+            "w": 11,
+            "h": 8
+          },
+          "childPositions": {
+            "title": {
+              "pos": {
+                "col": 0,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "gamecardContent": {
+              "pos": {
+                "col": 0,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "image": {
+              "pos": {
+                "col": 9,
+                "row": 4
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "videoId": {
+              "pos": {
+                "col": 9,
+                "row": 3
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "releaseStatus": {
+              "pos": {
+                "col": 9,
+                "row": 5
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleTitle": {
+              "pos": {
+                "col": 0,
+                "row": 1
+              },
+              "size": {
+                "w": 2,
+                "h": 1
+              }
+            },
+            "roleContent": {
+              "pos": {
+                "col": 0,
+                "row": 2
+              },
+              "size": {
+                "w": 2,
+                "h": 2
+              }
+            },
+            "caseStudies": {
+              "pos": {
+                "col": 2,
+                "row": 0
+              },
+              "size": {
+                "w": 7,
+                "h": 8
+              }
+            },
+            "images": {
+              "pos": {
+                "col": 9,
+                "row": 0
+              },
+              "size": {
+                "w": 2,
+                "h": 3
+              }
+            }
+          }
+        },
+        "title": {},
+        "gamecardContent": {},
+        "images": {
+          "0": {},
+          "1": {},
+          "__meta": {
+            "pos": {
+              "col": 0,
+              "row": 0
+            },
+            "size": {
+              "w": 2,
+              "h": 3
+            },
+            "containerSize": {
+              "w": 4,
+              "h": 1
+            },
+            "arrayItems": {
+              "size": {
+                "w": 2,
+                "h": 1
+              },
+              "positions": [
+                {
+                  "col": 0,
+                  "row": 0
+                },
+                {
+                  "col": 2,
+                  "row": 0
+                }
+              ]
+            }
+          }
+        },
+        "videoId": {}
+      },
+      "__meta": {
+        "pos": {
+          "col": 0,
+          "row": 0
+        },
+        "size": {
+          "w": 11,
+          "h": 9
+        },
+        "containerSize": {
+          "w": 8,
+          "h": 32
+        },
+        "arrayItems": {
+          "size": {
+            "w": 8,
+            "h": 8
+          },
+          "positions": [
+            {
+              "col": 0,
+              "row": 0
+            },
+            {
+              "col": 0,
+              "row": 8
+            },
+            {
+              "col": 0,
+              "row": 16
+            },
+            {
+              "col": 0,
+              "row": 24
+            }
+          ]
+        }
+      }
+    },
+    "platformTables": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {},
+      "__meta": {
+        "pos": {
+          "col": 0,
+          "row": 0
+        },
+        "size": {
+          "w": 1,
+          "h": 2
+        },
+        "containerSize": {
+          "w": 4,
+          "h": 12
+        },
+        "arrayItems": {
+          "size": {
+            "w": 2,
+            "h": 6
+          },
+          "positions": [
+            {
+              "col": 0,
+              "row": 0
+            },
+            {
+              "col": 2,
+              "row": 0
+            },
+            {
+              "col": 0,
+              "row": 6
+            },
+            {
+              "col": 2,
+              "row": 6
+            }
+          ]
+        }
+      }
+    }
+  }
+}

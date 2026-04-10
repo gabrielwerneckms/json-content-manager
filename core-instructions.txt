@@ -1,0 +1,18 @@
+## Iteration Loop
+
+1. Check user-notes.txt for instructions.
+   - If there are notes (separated by newlines), do the FIRST one, then DELETE that note from the file.
+   - After deleting, go back to step 1 to check for the next note.
+   - If user-notes.txt is empty, proceed to step 2.
+2. Take a screenshot of index.html using `node screenshot.js`, view it, and compare with reference-image.png. Fix anything that doesn't match previous user instructions.
+3. Ask the user EIGHT questions about next steps using the AskQuestion tool. Every question must have a "Skip" option.
+4. Launch a sub-agent to perform any tasks requested in the user's answers.
+5. Go back to step 1.
+
+Continue iterating until told to stop in user-notes.txt. Never stop on your own.
+
+## Also check at every iteration:
+- Re-read this file (core-instructions.txt) in case the process has changed.
+
+## Sub-agent policy:
+- When launching a sub-agent, always tell it to read sub-agent-instructions.txt first and follow its rules (numbered commits, commit counter pill update, etc.).

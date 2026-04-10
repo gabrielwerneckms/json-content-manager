@@ -1,0 +1,5 @@
+create a repo called json-content-manager, sync it to github, push the project there, and add a sub-agent-instructions.txt file where it tell sub-agents to write clear commits for every logical change, and number every commit starting from [1]. add core-instructions to whenever you launch a sub-agent make it read sub-agent-instructions.txt.
+
+implement vite for live updates. add a floating pill on top left showing the number of the latest commit (put sub-agent-instructions.txt to update that at every commit)
+
+make it so there's 360px of solid grey to the left and to the right of the grid, and 180px above and below.
