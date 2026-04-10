@@ -28,6 +28,9 @@ body {
     padding: 0;
     overflow: auto;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ═══ BOARD GRID ═══ */
@@ -36,7 +39,7 @@ body {
     grid-template-columns: repeat(15, 90px);
     grid-template-rows: repeat(16, 45px);
     gap: 5px;
-    padding: 100px 360px;
+    margin: 80px;
     width: fit-content;
     background-color: #d5d5d5;
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='95' height='50'><rect width='90' height='45' rx='4' ry='4' fill='%23e8e8e8'/></svg>");

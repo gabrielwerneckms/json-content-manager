@@ -238,6 +238,8 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
             <label class="debug-label" for="debug-filename">Filename</label>
             <input id="debug-filename" class="debug-input" type="text" placeholder="my-screenshot" />
             <div class="debug-actions">
+                <span id="debug-folder-info" style="font-size:11px;color:#888;margin-right:auto;align-self:center;"></span>
+                <a id="debug-change-folder" href="#" style="font-size:11px;margin-right:auto;align-self:center;display:none;">Change folder</a>
                 <button id="debug-save" class="debug-btn debug-btn-save">Save PNG</button>
                 <button id="debug-close" class="debug-btn debug-btn-close">Close</button>
             </div>
@@ -246,12 +248,74 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
 
     <script>
     (function () {
-        const panel     = document.getElementById('debug-panel');
-        const img       = document.getElementById('debug-img');
+        const panel       = document.getElementById('debug-panel');
+        const img         = document.getElementById('debug-img');
         const placeholder = document.getElementById('debug-placeholder');
-        const filenameIn = document.getElementById('debug-filename');
-        let currentBlob  = null;
+        const filenameIn  = document.getElementById('debug-filename');
+        const folderInfo  = document.getElementById('debug-folder-info');
+        const changeLink  = document.getElementById('debug-change-folder');
+        let currentBlob   = null;
 
+        /* ── IndexedDB helpers for persisting directory handle ── */
+        const DB_NAME = 'debug-panel-db';
+        const STORE   = 'handles';
+        const KEY     = 'saveDir';
+
+        function openDB() {
+            return new Promise((resolve, reject) => {
+                const req = indexedDB.open(DB_NAME, 1);
+                req.onupgradeneeded = () => req.result.createObjectStore(STORE);
+                req.onsuccess = () => resolve(req.result);
+                req.onerror   = () => reject(req.error);
+            });
+        }
+
+        async function getStoredHandle() {
+            const db = await openDB();
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(STORE, 'readonly');
+                const rq = tx.objectStore(STORE).get(KEY);
+                rq.onsuccess = () => resolve(rq.result || null);
+                rq.onerror   = () => reject(rq.error);
+            });
+        }
+
+        async function storeHandle(handle) {
+            const db = await openDB();
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(STORE, 'readwrite');
+                tx.objectStore(STORE).put(handle, KEY);
+                tx.oncomplete = () => resolve();
+                tx.onerror    = () => reject(tx.error);
+            });
+        }
+
+        /* ── Verify / request permission on a stored handle ── */
+        async function verifyPermission(handle) {
+            if ((await handle.queryPermission({ mode: 'readwrite' })) === 'granted') return true;
+            if ((await handle.requestPermission({ mode: 'readwrite' })) === 'granted') return true;
+            return false;
+        }
+
+        /* ── Pick a new directory ── */
+        async function pickDirectory() {
+            const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
+            await storeHandle(handle);
+            updateFolderUI(handle.name);
+            return handle;
+        }
+
+        function updateFolderUI(name) {
+            if (name) {
+                folderInfo.textContent = 'Folder: ' + name;
+                changeLink.style.display = 'inline';
+            } else {
+                folderInfo.textContent = '';
+                changeLink.style.display = 'none';
+            }
+        }
+
+        /* ── Clipboard reading ── */
         async function readClipboardImage() {
             try {
                 const items = await navigator.clipboard.read();
@@ -275,10 +339,15 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
             }
         }
 
-        function openPanel() {
+        /* ── Panel open / close ── */
+        async function openPanel() {
             panel.style.display = 'flex';
             readClipboardImage();
             filenameIn.focus();
+            try {
+                const h = await getStoredHandle();
+                updateFolderUI(h ? h.name : null);
+            } catch { updateFolderUI(null); }
         }
 
         function closePanel() {
@@ -291,19 +360,36 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
             currentBlob = null;
         }
 
-        function saveImage() {
+        /* ── Save image to chosen directory ── */
+        async function saveImage() {
             if (!currentBlob) return;
             const name = (filenameIn.value.trim() || 'clipboard-image') + '.png';
-            const url = URL.createObjectURL(currentBlob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = name;
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-            URL.revokeObjectURL(url);
+
+            try {
+                let dirHandle = await getStoredHandle();
+
+                if (dirHandle) {
+                    const ok = await verifyPermission(dirHandle);
+                    if (!ok) dirHandle = null;          // permission lost → re-pick
+                }
+
+                if (!dirHandle) dirHandle = await pickDirectory();
+
+                const fileHandle = await dirHandle.getFile
+                    ? await dirHandle.getFileHandle(name, { create: true })
+                    : await dirHandle.getFileHandle(name, { create: true });
+                const writable = await fileHandle.createWritable();
+                await writable.write(currentBlob);
+                await writable.close();
+
+                folderInfo.textContent = 'Saved to ' + dirHandle.name + '/' + name;
+            } catch (err) {
+                if (err.name === 'AbortError') return;  // user cancelled picker
+                folderInfo.textContent = 'Save failed: ' + err.message;
+            }
         }
 
+        /* ── Event listeners ── */
         document.addEventListener('keydown', function (e) {
             if (e.ctrlKey && e.shiftKey && e.key === 'V') {
                 e.preventDefault();
@@ -317,6 +403,10 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
         document.getElementById('debug-save').addEventListener('click', saveImage);
         document.getElementById('debug-close').addEventListener('click', closePanel);
         document.querySelector('.debug-backdrop').addEventListener('click', closePanel);
+        changeLink.addEventListener('click', async function (e) {
+            e.preventDefault();
+            try { await pickDirectory(); } catch {}
+        });
     })();
     </script>
 </body>
