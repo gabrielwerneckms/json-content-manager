@@ -107,11 +107,11 @@ body {
     display: flex;
     gap: 2px;
     min-width: 0;
+    overflow: hidden;
 }
 
 .tab {
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
     border: 1px solid #999;
     padding: 0px 6px;
     font-size: 10px;
@@ -124,6 +124,7 @@ body {
     flex: 0 1 auto;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.6;
 }
 
 .tab.active {
