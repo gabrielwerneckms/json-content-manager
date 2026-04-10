@@ -225,5 +225,99 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
         </div>
 
     </div>
+
+    <!-- ═══ DEBUG PANEL (Ctrl+Shift+V) ═══ -->
+    <div id="debug-panel" class="debug-overlay" style="display:none;">
+        <div class="debug-backdrop"></div>
+        <div class="debug-modal">
+            <h3>Clipboard Image Preview</h3>
+            <div id="debug-preview" class="debug-preview">
+                <p id="debug-placeholder">Press Ctrl+Shift+V to read clipboard image…</p>
+                <img id="debug-img" style="display:none;" alt="Clipboard preview">
+            </div>
+            <label class="debug-label" for="debug-filename">Filename</label>
+            <input id="debug-filename" class="debug-input" type="text" placeholder="my-screenshot" />
+            <div class="debug-actions">
+                <button id="debug-save" class="debug-btn debug-btn-save">Save PNG</button>
+                <button id="debug-close" class="debug-btn debug-btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    (function () {
+        const panel     = document.getElementById('debug-panel');
+        const img       = document.getElementById('debug-img');
+        const placeholder = document.getElementById('debug-placeholder');
+        const filenameIn = document.getElementById('debug-filename');
+        let currentBlob  = null;
+
+        async function readClipboardImage() {
+            try {
+                const items = await navigator.clipboard.read();
+                for (const item of items) {
+                    const imageType = item.types.find(t => t.startsWith('image/'));
+                    if (imageType) {
+                        currentBlob = await item.getType(imageType);
+                        const url = URL.createObjectURL(currentBlob);
+                        img.onload = () => URL.revokeObjectURL(url);
+                        img.src = url;
+                        img.style.display = 'block';
+                        placeholder.style.display = 'none';
+                        return;
+                    }
+                }
+                placeholder.textContent = 'No image found in clipboard.';
+                placeholder.style.display = 'block';
+            } catch (err) {
+                placeholder.textContent = 'Clipboard access denied or empty.';
+                placeholder.style.display = 'block';
+            }
+        }
+
+        function openPanel() {
+            panel.style.display = 'flex';
+            readClipboardImage();
+            filenameIn.focus();
+        }
+
+        function closePanel() {
+            panel.style.display = 'none';
+            img.style.display = 'none';
+            img.src = '';
+            placeholder.style.display = 'block';
+            placeholder.textContent = 'Press Ctrl+Shift+V to read clipboard image…';
+            filenameIn.value = '';
+            currentBlob = null;
+        }
+
+        function saveImage() {
+            if (!currentBlob) return;
+            const name = (filenameIn.value.trim() || 'clipboard-image') + '.png';
+            const url = URL.createObjectURL(currentBlob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = name;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            URL.revokeObjectURL(url);
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (e.ctrlKey && e.shiftKey && e.key === 'V') {
+                e.preventDefault();
+                openPanel();
+            }
+            if (e.key === 'Escape' && panel.style.display !== 'none') {
+                closePanel();
+            }
+        });
+
+        document.getElementById('debug-save').addEventListener('click', saveImage);
+        document.getElementById('debug-close').addEventListener('click', closePanel);
+        document.querySelector('.debug-backdrop').addEventListener('click', closePanel);
+    })();
+    </script>
 </body>
 </html>

@@ -12,6 +12,7 @@
 Continue iterating until told to stop in user-notes.txt. Never stop on your own.
 
 ## Also check at every iteration:
+- At each iteration, check the temp/ folder. If there are any files that have already been addressed, ask the user if they can be deleted.
 - Re-read this file (core-instructions.txt) in case the process has changed.
 
 ## Sub-agent policy:
