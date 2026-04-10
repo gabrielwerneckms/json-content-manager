@@ -383,6 +383,7 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
                 await writable.close();
 
                 folderInfo.textContent = 'Saved to ' + dirHandle.name + '/' + name;
+                closePanel();
             } catch (err) {
                 if (err.name === 'AbortError') return;  // user cancelled picker
                 folderInfo.textContent = 'Save failed: ' + err.message;
@@ -398,6 +399,10 @@ The first was players tended toward long, multi-hour sessions, finishing the gam
             if (e.key === 'Escape' && panel.style.display !== 'none') {
                 closePanel();
             }
+        });
+
+        filenameIn.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); saveImage(); }
         });
 
         document.getElementById('debug-save').addEventListener('click', saveImage);

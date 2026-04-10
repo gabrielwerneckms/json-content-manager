@@ -1,0 +1,3 @@
+update your instructions to ask questions as necessary. try to be thorough and ask a lot of questions, but ask relevant questions about ambiguity in what I asked, about whether things worked or to confirm decisions you made.
+
+replace array indices with the titles of each video/case study/game in the json. truncate to 15 chars. if you cant fit them all, truncate selected one to 15 chars and show the rest as index. if still doesnt fit, show all as index.
