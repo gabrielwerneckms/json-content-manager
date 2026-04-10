@@ -1,3 +1,0 @@
-implement vite for live updates. add a floating pill on top left showing the number of the latest commit (put sub-agent-instructions.txt to update that at every commit)
-
-make it so there's 360px of solid grey to the left and to the right of the grid, and 180px above and below.
