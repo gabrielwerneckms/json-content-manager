@@ -83,6 +83,7 @@ body {
 .array-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
     padding: 5px 8px 0px;
     flex-shrink: 0;
@@ -105,31 +106,28 @@ body {
 .tabs {
     display: flex;
     gap: 2px;
-    flex: 1;
     min-width: 0;
 }
 
 .tab {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     border: 1px solid #999;
     padding: 0px 6px;
     font-size: 10px;
     cursor: default;
     background: white;
-    min-width: 20px;
-    text-align: center;
+    color: #999;
+    text-align: left;
     white-space: nowrap;
     border-radius: 10px;
-    flex: 1 1 0;
+    flex: 0 1 auto;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .tab.active {
-    border: 2px solid #555;
-    font-weight: bold;
+    color: #333;
 }
 
 /* ═══ CARD (property card) ═══ */
