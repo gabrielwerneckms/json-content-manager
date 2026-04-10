@@ -41,7 +41,8 @@ body {
     background-color: #d5d5d5;
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='95' height='50'><rect width='90' height='45' rx='4' ry='4' fill='%23e8e8e8'/></svg>");
     background-size: 95px 50px;
-    background-position: 360px 180px;
+    background-origin: content-box;
+    background-clip: content-box;
 }
 
 /* ═══ CONTAINER (hero, games, nested) ═══ */
@@ -146,7 +147,7 @@ body {
 }
 
 .card-value {
-    padding: 3px 8px 5px;
+    padding: 3px 9px 5px 8px;
     font-size: 11px;
     line-height: 1.45;
     overflow-y: auto;
@@ -154,9 +155,9 @@ body {
     min-height: 0;
 }
 
-.card-value::-webkit-scrollbar { width: 4px; }
-.card-value::-webkit-scrollbar-track { background: transparent; }
-.card-value::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+.card-value::-webkit-scrollbar { width: 6px; }
+.card-value::-webkit-scrollbar-track { background: transparent; margin-right: 1px; }
+.card-value::-webkit-scrollbar-thumb { background: #e0e0e0; border-radius: 3px; border: 1px solid transparent; background-clip: padding-box; }
 
 .card-label.dimmed {
     color: #999;

@@ -3,5 +3,5 @@
 - Write clear, descriptive git commits for every logical change.
 - Number every commit starting from [1], incrementing sequentially.
 - Format: `[N] Brief description of what changed`
-- After each commit, update the commit counter in index.html (the floating pill showing the latest commit number).
+- After each commit, update the number in `current-version.txt` instead of editing index.html for the commit counter.
 - Read core-instructions.txt to understand the overall workflow.

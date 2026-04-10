@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="commit-pill">3</div>
+    <div class="commit-pill" id="commit-pill"></div>
+    <script>fetch('current-version.txt').then(r=>r.text()).then(t=>{document.getElementById('commit-pill').textContent=t.trim()}).catch(()=>{document.getElementById('commit-pill').textContent='?'})</script>
     <div class="board">
 
         <!-- ═══════════ HERO CONTAINER ═══════════ -->
