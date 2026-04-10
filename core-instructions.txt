@@ -9,8 +9,7 @@
    - Clarifying ambiguity in recent requests
    - Confirming whether recent changes worked
    - Verifying design decisions made
-   - Asking about next priorities
-   Don't ask about things the user said aren't important.
+   Do NOT ask "what should I focus on next" or similar — the user's answers and user-notes already provide direction.
 4. Launch a sub-agent to perform any tasks requested in the user's answers.
 5. Go back to step 1.
 
