@@ -32,12 +32,12 @@
     margin: 0;
     font-size: 15px;
     font-weight: 700;
-    color: #222;
+    color: #535363;
 }
 
 .preview {
     background: #f0f0f0;
-    border: 1px solid #ddd;
+    border: 1px solid #9E9EAE;
     border-radius: 6px;
     min-height: 120px;
     max-height: 320px;
@@ -61,7 +61,7 @@
 .input {
     width: 100%;
     padding: 8px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #9E9EAE;
     border-radius: 6px;
     font-size: 13px;
     font-family: inherit;
@@ -69,7 +69,7 @@
 }
 
 .input:focus {
-    border-color: #aaa;
+    border-color: #8E8E9E;
 }
 
 .actions {
@@ -89,12 +89,12 @@
 }
 
 .btnSave {
-    background: #333;
+    background: #535363;
     color: white;
 }
 
 .btnSave:hover {
-    background: #555;
+    background: #8E8E9E;
 }
 
 .btnClose {

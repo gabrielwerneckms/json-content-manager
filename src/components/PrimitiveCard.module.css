@@ -1,7 +1,7 @@
 /* ═══ PRIMITIVE CARD ═══ */
 .card {
-    border: 1px solid #ddd;
-    background: white;
+    border: 1px solid #9E9EAE;
+    background: #FBFBFF;
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -16,14 +16,14 @@
     display: inline-block;
     align-self: center;
     margin: 4px auto 2px;
-    border: 1px solid #ddd;
+    border: 1px solid #9E9EAE;
     border-radius: 10px;
     background: transparent;
-    color: #888;
+    color: #8E8E9E;
 }
 
 .labelDimmed {
-    color: #999;
+    color: #9E9EAE;
     font-weight: normal;
 }
 
@@ -34,12 +34,12 @@
     overflow-y: auto;
     flex: 1;
     min-height: 0;
-    color: #666;
+    color: #535363;
 }
 
 .value::-webkit-scrollbar { width: 6px; }
 .value::-webkit-scrollbar-track { background: transparent; margin-right: 1px; }
-.value::-webkit-scrollbar-thumb { background: #ddd; border-radius: 3px; border: 1px solid transparent; background-clip: padding-box; }
+.value::-webkit-scrollbar-thumb { background: #AEAEBE; border-radius: 3px; border: 1px solid transparent; background-clip: padding-box; }
 
 .codeText {
     font-family: "Consolas", "Courier New", monospace;
@@ -54,14 +54,14 @@
     width: 29px;
     height: 14px;
     border-radius: 7px;
-    background: #ccc;
+    background: #AEAEBE;
     position: relative;
     display: inline-block;
     margin-top: 2px;
 }
 
 .toggleOn {
-    background: #4a90d9;
+    background: #8E8E9E;
 }
 
 .toggleKnob {

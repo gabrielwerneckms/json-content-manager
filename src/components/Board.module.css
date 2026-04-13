@@ -4,8 +4,8 @@
     gap: 5px;
     margin: 80px;
     width: fit-content;
-    background-color: #dbdbdb;
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='95' height='50'><rect width='90' height='45' rx='4' ry='4' fill='%23e2e2e2'/></svg>");
+    background-color: #D8D8DD;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='95' height='50'><rect width='90' height='45' rx='4' ry='4' fill='%23DEDEFE' stroke='%23D8D8DD' stroke-width='0.5'/></svg>");
     background-size: 95px 50px;
     background-origin: content-box;
     background-clip: content-box;
