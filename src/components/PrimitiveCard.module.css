@@ -1,0 +1,79 @@
+/* ═══ PRIMITIVE CARD ═══ */
+.card {
+    border: 1px solid #ddd;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px 8px;
+    flex-shrink: 0;
+    display: inline-block;
+    align-self: center;
+    margin: 4px auto 2px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: transparent;
+    color: #888;
+}
+
+.labelDimmed {
+    color: #999;
+    font-weight: normal;
+}
+
+.value {
+    padding: 3px 9px 5px 8px;
+    font-size: 11px;
+    line-height: 1.45;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    color: #666;
+}
+
+.value::-webkit-scrollbar { width: 6px; }
+.value::-webkit-scrollbar-track { background: transparent; margin-right: 1px; }
+.value::-webkit-scrollbar-thumb { background: #ddd; border-radius: 3px; border: 1px solid transparent; background-clip: padding-box; }
+
+.codeText {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 10px;
+    text-align: left;
+    word-break: break-all;
+    line-height: 1.35;
+}
+
+/* ═══ TOGGLE SWITCH ═══ */
+.toggle {
+    width: 29px;
+    height: 14px;
+    border-radius: 7px;
+    background: #ccc;
+    position: relative;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.toggleOn {
+    background: #4a90d9;
+}
+
+.toggleKnob {
+    width: 11px;
+    height: 11px;
+    border-radius: 6px;
+    background: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.toggleOn .toggleKnob {
+    left: 16px;
+}

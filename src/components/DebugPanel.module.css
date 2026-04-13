@@ -1,0 +1,107 @@
+/* ═══ DEBUG PANEL OVERLAY ═══ */
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.modal {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    padding: 24px 28px;
+    width: 420px;
+    max-width: 92vw;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.modal h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+.preview {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-height: 120px;
+    max-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.preview img {
+    max-width: 100%;
+    max-height: 320px;
+    object-fit: contain;
+}
+
+.preview p {
+    color: #888;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #aaa;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.btn {
+    padding: 7px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btnSave {
+    background: #333;
+    color: white;
+}
+
+.btnSave:hover {
+    background: #555;
+}
+
+.btnClose {
+    background: #eee;
+    color: #333;
+}
+
+.btnClose:hover {
+    background: #ddd;
+}
